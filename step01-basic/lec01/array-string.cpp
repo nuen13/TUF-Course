@@ -22,6 +22,16 @@ int main(){
     // --- matrix --- //
     int arr_matrix[3][5]; // 3 x 5 matrix -- row x col
 
+
+    string s = "Kien Tran";
+    int len = s.size();
+
+    s[len - 2] = 'z';
+
+    cout << s;
+
+
+
     
 
  
