@@ -117,9 +117,9 @@ void explainVector(){
     vector<int> copy(2, 50);                        // {50,50 }
     v.insert(v.begin(), copy.begin(), copy.end()); // {50, 50, 300, 10, 10, 100, 100}
 
-    cout << v.size()
+    cout << v.size();
 
-    v.pop_back() // -> pop the last element 
+    v.pop_back(); // -> pop the last element 
 
 
     // v1 -> {10, 20}
@@ -128,17 +128,11 @@ void explainVector(){
     v.clear();
 
     cout << v.empty(); // return BOOL -> if empty ->true 
-
-
-
-
-
-
-    
-
-
-
 }
+
+
+
+
 
 
 
