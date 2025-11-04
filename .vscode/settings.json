@@ -59,6 +59,10 @@
   "files.associations": {
     ".fantomasignore": "ignore",
     "iostream": "cpp",
-    "ostream": "cpp"
+    "ostream": "cpp",
+    "random": "cpp",
+    "array": "cpp",
+    "chrono": "cpp",
+    "span": "cpp"
   }
 }
